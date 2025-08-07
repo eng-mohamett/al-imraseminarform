@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seminar Registration - AIU</title>
+  <link rel="stylesheet" href="1.css">
+</head>
+<body>
+  <!-- Seminar Image -->
+  <div class="banner">
+    <img src="1.jpg" alt="Seminar Poster">
+  </div>
+
+  <!-- Registration Form -->
+  <div class="form-container">
+    <h2>Register for the Seminar</h2>
+    <form action="https://formsubmit.co/tellazaka26@gmail.com" method="POST">
+      <!-- Gmail integration setting -->
+      <input type="hidden" name="_subject" value="New Seminar Registration!">
+      <input type="hidden" name="_captcha" value="false">
+
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="Full Name" required>
+
+      <label for="number">Number</label>
+      <input type="text" id="Number" required>
+
+      <label for="university">University</label>
+      <input type="text" id="university" name="University" required>
+
+      <label for="gender">Gender</label>
+      <select id="gender" name="Gender" required>
+        <option value="">-- Select --</option>
+        <option value="Male">Men</option>
+        <option value="Female">Female</option>
+      </select>
+
+      <label for="occupation">Occupation</label>
+      <input type="text" id="occupation" name="Occupation" placeholder="e.g. Arday, Macalin..." required>
+
+      <!-- Submit button -->
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- AIU Logo -->
+    <div class="logo">
+      <img src="2.jpg" alt="AIU Logo">
+    </div>
+  </div>
+</body>
+</html>
